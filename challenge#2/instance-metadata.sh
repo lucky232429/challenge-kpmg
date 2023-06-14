@@ -11,8 +11,6 @@ az account set --subscription "$subscription_id"
 
 az ad signed-in-user show
 
-#!/bin/bash
-
 # Define the data key
 data_key=$1
 
